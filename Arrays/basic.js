@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3d16a65b53e2923ac2d74382839e2f9101583b14
 // 1. Array length
 let arr1 = [1, 2, 3, 4, 5];
 console.log(arr1.length); // 5
@@ -91,6 +94,9 @@ console.log(arr14);           // [1, 2, 3, 4, 5] (original array unchanged)
 let arr15 = [1, 2, 3, 4, 5];
 let slicedArr = arr15.slice(1, 3); // Extract from index 1 to 3 (not inclusive)
 console.log(slicedArr);            // [2, 3]
+<<<<<<< HEAD
 
 
 //This code block includes examples of all the array methods you asked for, with enough space between each operation to improve readability. Let me know if you'd like further clarification!
+=======
+>>>>>>> 3d16a65b53e2923ac2d74382839e2f9101583b14

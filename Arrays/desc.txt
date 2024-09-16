@@ -1,0 +1,78 @@
+
+
+1.  Array `length`   
+   Returns the number of elements in an array.
+
+---
+
+2.  Array `toString()`   
+   Converts an array into a string, with elements separated by commas.
+
+---
+
+3.  Array `at()`   
+   Returns the element at a specific index, supporting both positive and negative indexing. Positive indices start from the beginning, and negative indices start from the end.
+
+---
+
+4.  Array `join()`   
+   Joins all elements of an array into a string, separated by a specified separator. If no separator is provided, it defaults to a comma.
+
+---
+
+5.  Array `pop()`   
+   Removes the last element from an array and returns that element. The length of the array is decreased by one.
+
+---
+
+6.  Array `push()`   
+   Adds one or more elements to the end of an array and returns the new length of the array.
+
+---
+
+7.  Array `shift()`   
+   Removes the first element from an array and returns that element. The remaining elements are shifted to lower indexes.
+
+---
+
+8.  Array `unshift()`   
+   Adds one or more elements to the beginning of an array and returns the new length of the array. The existing elements are shifted to higher indexes.
+
+---
+
+9.  Array `delete`   
+   Deletes an element at a specific index in an array. This leaves `undefined` at the deleted position and does not affect the array’s length.
+
+---
+
+10.  Array `concat()`   
+   Merges two or more arrays into one and returns a new array. The original arrays remain unchanged.
+
+---
+
+11.  Array `copyWithin()`   
+   Copies a section of the array to another location in the same array, overwriting existing values. This method modifies the original array.
+
+---
+
+12.  Array `flat()`   
+   Flattens nested arrays into a single array, up to a specified depth. The default depth is 1.
+
+---
+
+13.  Array `splice()`   
+   Adds, removes, or replaces elements in an array at a specified index. It modifies the original array and returns the removed elements, if any.
+
+---
+
+14.  Array `toSpliced()`  (ES2023)  
+   Returns a new array with specified elements removed or replaced without modifying the original array.
+
+---
+
+15.  Array `slice()`   
+   Returns a shallow copy of a portion of an array into a new array. It does not modify the original array. The start index is inclusive, and the end index is exclusive.
+
+---
+
+These descriptions summarize the array methods in JavaScript. Let me know if you need more details!
