@@ -1,0 +1,13 @@
+
+Synchronous vs Asynchronous 
+
+Aspect	    Synchronous	                     Asynchronous
+----------------------------------------------------------------------------------------
+Execution	Tasks run one after another	     Tasks can run concurrently
+Blocking	Blocks further execution	     Does not block further execution
+Use Case	Simple tasks, calculations	     Long-running tasks (e.g., network requests)
+Example	    Simple functions, loops	         setTimeout, fetch(), Promises, async/await
+
+Synchronous functions execute in sequence, blocking further execution until the current task is done.
+Asynchronous functions allow other code to run while waiting for time-consuming operations, improving 
+responsiveness. Methods like callbacks, Promises, and async/await make managing asynchronous operations more intuitive.

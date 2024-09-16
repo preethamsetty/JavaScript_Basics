@@ -1,0 +1,13 @@
+Variables:
+they are containers which are used to store different type of data.
+In JavaScript, var, let, and const are used to declare variables.
+
+Comparision of var,let,and const.
+
+Feature	        var	              let	        const
+--------------------------------------------------------------
+Scope	        Function-scoped	  Block-scoped	Block-scoped
+Redeclaration	Allowed	          Not allowed	Not allowed
+Reassignment	Allowed	          Allowed	    Not allowed
+Initialization	Optional	      Optional	    Mandatory
+
