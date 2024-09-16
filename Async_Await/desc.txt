@@ -1,0 +1,11 @@
+async and await: are modern JavaScript features that simplify working with promises, making asynchronous code 
+easier to read and write. They allow us to write asynchronous code that looks and behaves more like synchronous code.
+-------------------------
+async Function
+The async keyword is used to define an asynchronous function. It automatically returns a promise. 
+Inside an async function, you can use the await keyword to pause execution until the promise is resolved.
+-------------------------
+await Keyword
+The await keyword is used to pause the execution of an async function until a promise is resolved. 
+Once the promise resolves, it returns the result of the promise. If the promise is rejected, await throws the error.
+
