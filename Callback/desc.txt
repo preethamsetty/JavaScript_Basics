@@ -1,0 +1,6 @@
+callbacks:
+----------------------------------------
+Callbacks are a foundational concept in JavaScript, particularly when dealing with asynchronous code. 
+A callback is simply a function passed as an argument to another function, which is then executed after the 
+completion of the operation.
+
