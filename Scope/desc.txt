@@ -1,0 +1,8 @@
+Scope in javascript:
+In JavaScript, scope refers to the current context of execution in which variables, objects, 
+and functions are accessible.
+
+Types of Scope in JavaScript:
+1.Global Scope
+2.Function Scope
+3.Block Scope

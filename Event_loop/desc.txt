@@ -1,0 +1,64 @@
+Event loop:
+-----------------------
+The event loop in JavaScript is a fundamental concept that enables non-blocking, asynchronous programming. 
+It allows JavaScript to perform tasks like handling I/O operations (such as file reads or HTTP requests) 
+in the background while continuing to execute other code, making JavaScript single-threaded but capable of 
+handling multiple tasks concurrently.
+
+-------------------------------------------------------------------------------------------------------------
+
+JavaScript runs on a single thread, meaning it can only execute one task at a time. 
+This could be problematic for long-running tasks (e.g., network requests, file reading), 
+but the event loop ensures that JavaScript can manage these tasks asynchronously without blocking the main thread.
+
+The event loop continually checks the call stack (where function execution contexts are placed) 
+and the task queues (where asynchronous tasks, like setTimeout callbacks or promises, are queued) to decide 
+what to execute next.
+------------------------------------------------------------------------------------------------------------------
+Key Concepts:
+
+Call Stack:
+A data structure that follows the Last In, First Out (LIFO) principle.
+When a function is called, it is added to the stack. When it completes, it's removed from the stack.
+-----------------
+Web APIs:
+
+When asynchronous code like setTimeout, fetch, or event listeners are called, they interact with Web APIs 
+(provided by the browser) and are handled in the background.
+---------------------
+Task Queue:
+
+When an asynchronous task completes (e.g., a setTimeout finishes or a Promise resolves), the callback function 
+is pushed to the task queue, waiting to be executed.
+Tasks in the queue wait for the call stack to be empty before being executed.
+-----------------------
+Event Loop:
+
+The event loop constantly checks if the call stack is empty. If it is, it pushes the first task from the 
+task queue to the call stack.
+
+
+
+
+
+
+
+How the Event Loop Works:
+--------------------------------------
+Stack & Execution:
+
+Synchronous functions are executed in the order they are placed on the call stack.
+When an asynchronous operation is called (like setTimeout or a fetch request), it is passed to the Web API and 
+not executed immediately.
+
+Waiting & Queueing:
+
+The Web API completes the asynchronous operation and places the callback into the appropriate queue 
+(task or microtask).
+Once the call stack is empty, the event loop checks the microtask queue (for promises) first, then the 
+task queue (for timers and other callbacks).
+
+Microtasks Before Tasks:
+
+Promises (which go to the microtask queue) are always processed before setTimeout and other tasks 
+(which go to the task queue).

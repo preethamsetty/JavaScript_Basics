@@ -1,0 +1,105 @@
+
+
+---
+
+     1.   String `length`    
+   Returns the number of characters in a string.
+
+---
+
+     2.   String `charAt()`    
+   Returns the character at a specified index in the string.
+
+---
+
+     3.   String `charCodeAt()`    
+   Returns the Unicode (ASCII) value of the character at a specified index.
+
+---
+
+     4.   String `at()`    
+   Returns the character at a specified position, supporting both positive and negative indexes.
+
+---
+
+     5.   String `[ ]` (Bracket notation)    
+   Allows access to characters in a string by index, similar to `charAt()`.
+
+---
+
+     6.   String `slice()`    
+   Extracts a section of a string and returns it as a new string, without modifying the original string. Supports negative indexes.
+
+---
+
+     7.   String `substring()`    
+   Returns a portion of a string between two specified indexes. Unlike `slice()`, it does not support negative indexes.
+
+---
+
+     8.   String `substr()`    
+   Returns a substring, starting at a specified index and with a specified length. It is considered deprecated but still widely used.
+
+---
+
+     9.   String `toUpperCase()`    
+   Converts all characters in a string to uppercase.
+
+---
+
+     10.   String `toLowerCase()`    
+   Converts all characters in a string to lowercase.
+
+---
+
+     11.   String `concat()`    
+   Concatenates (joins) two or more strings and returns a new string.
+
+---
+
+     12.   String `trim()`    
+   Removes whitespace from both ends of a string.
+
+---
+
+     13.   String `trimStart()`    
+   Removes whitespace from the beginning (start) of a string.
+
+---
+
+     14.   String `trimEnd()`    
+   Removes whitespace from the end of a string.
+
+---
+
+     15.   String `padStart()`    
+   Pads the current string with a specified string (or character) from the start until the resulting string reaches a given length.
+
+---
+
+     16.   String `padEnd()`    
+   Pads the current string with a specified string (or character) from the end until the resulting string reaches a given length.
+
+---
+
+     17.   String `repeat()`    
+   Returns a new string with a specified number of copies of the original string concatenated together.
+
+---
+
+     18.   String `replace()`    
+   Replaces a specified value (or regular expression) with another string. Only replaces the first occurrence unless a regular expression with the global (`g`) flag is used.
+
+---
+
+     19.   String `replaceAll()`    
+   Replaces all occurrences of a specified value (or regular expression) with another string.
+
+---
+
+     20.   String `split()`    
+   Splits a string into an array of substrings based on a specified delimiter.
+
+---
+
+These descriptions cover basic string methods in JavaScript. Let me know if you'd like more detailed examples for each!
