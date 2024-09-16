@@ -1,0 +1,22 @@
+Data types:
+JavaScript has several data types that are categorized into two main groups: primitive types and 
+non-primitive types (also known as reference types). 
+
+1. Primitive Data Types:
+Primitive types are basic data types provided by JavaScript, and they are immutable.
+
+Number
+String
+Boolean
+Null
+Undefined
+Symbol (ES6)
+BigInt (ES2020)
+
+2. Non-primitive data types:
+Non-primitive types, also known as reference types, store references to the location in 
+memory where the actual data is stored.
+
+Object
+Array
+Function
