@@ -1,0 +1,16 @@
+1. Object.entries()
+Description: This method returns an array of a given object's own enumerable property [key, value] pairs.
+Syntax: Object.entries(obj)
+------------------------------------------------------------
+
+2. Object.values()
+Description: This method returns an array of a given object's own enumerable property values.
+Syntax: Object.values(obj)
+
+------------------------------------------------------------
+
+3. String padding (padStart and padEnd)
+Description: These methods allow padding a string with another string until the resulting string reaches a given length.
+Syntax:
+string.padStart(targetLength, padString)
+string.padEnd(targetLength, padString)
