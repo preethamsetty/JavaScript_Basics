@@ -1,0 +1,9 @@
+1. Array.prototype.includes()
+Description: This method checks if an array contains a certain value.
+Syntax: array.includes(value)
+
+-----------------------------------------------------------------------
+
+2. Exponentiation Operator (**)
+Description: This operator provides a shorthand for exponentiation, similar to Math.pow().
+Syntax: a ** b (which is equivalent to Math.pow(a, b))
