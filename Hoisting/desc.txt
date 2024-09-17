@@ -1,0 +1,8 @@
+Hoisting is a JavaScript mechanism that moves variable declarations to the top of their respective scopes (either function or global scope) 
+before the code is executed.
+
+Variable Declarations: Only variable declarations (using var, let, or const) are hoisted. Variable assignments and function expressions 
+are not hoisted.
+Scope: Hoisting occurs within the scope where the variable is declared (either function or global scope).
+Temporal Dead Zone (TDZ): Variables declared with let or const have a temporal dead zone before they are initialized. 
+Trying to access them before they are declared will result in a ReferenceError.
