@@ -1,0 +1,19 @@
+1. Array.prototype.flat()
+Description: The flat() method creates a new array by flattening nested arrays up to a specified depth. 
+The default depth is 1.
+Syntax: array.flat(depth)
+
+---------------------------------------
+
+2. Array.prototype.flatMap()
+Description: Combines the functionality of map() and flat(). It first maps each element using a mapping function, 
+then flattens the result by one level.
+Syntax: array.flatMap(callback)
+
+---------------------------------------
+
+3.String.prototype.trimStart() and String.prototype.trimEnd()
+Description: These methods remove whitespace from the start or end of a string.
+Syntax:
+string.trimStart() (removes leading spaces)
+string.trimEnd() (removes trailing spaces)
