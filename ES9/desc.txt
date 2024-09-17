@@ -1,0 +1,8 @@
+Explanation:
+^: Start of string.
+[a-zA-Z0-9._%+-]+: One or more letters, digits, or special characters.
+@: Matches the literal "@".
+[a-zA-Z0-9.-]+: One or more letters, digits, periods, or hyphens.
+\.: Escaped dot (matches the period).
+[a-zA-Z]{2,}: Domain extension with at least two letters.
+$: End of string.
