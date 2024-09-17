@@ -1,0 +1,8 @@
+Higher-order functions are functions that can take other functions as arguments or return functions as results. 
+They are a fundamental concept in functional programming and provide powerful tools for creating flexible and reusable code.   
+
+Key characteristics of higher-order functions:
+
+Accept functions as arguments: They can take other functions as input parameters.
+Return functions as results: They can return new functions as output.
+Enable functional programming paradigms: They are essential for functional programming concepts like map, filter, reduce, and compose.
