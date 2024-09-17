@@ -1,0 +1,7 @@
+In JavaScript, closures are a fundamental concept where an inner function has access to variables from its outer function, 
+even after the outer function has returned. This allows the inner function to "remember" the environment in which it was created, 
+which is called its lexical environment.
+
+Key Points:
+A closure gives you access to an outer function's scope from an inner function.
+The inner function retains access to variables defined in the outer function, even after the outer function has executed.
