@@ -1,0 +1,13 @@
+Prototypes in JavaScript
+
+Prototypes are a fundamental concept in JavaScript that define the structure and behavior of objects. 
+Unlike class-based languages like Java, JavaScript doesn't have a direct equivalent of classes. Instead, 
+it uses prototypes to create objects and establish inheritance relationships.
+
+Key Concepts:
+
+Object: A collection of properties and methods.
+Prototype: An object that serves as a template for other objects.
+Prototype Chain: A linked list of objects that forms a hierarchy. Each object has a prototype property that 
+points to another object, creating a chain.
+Inheritance: Objects inherit properties and methods from their prototype.
