@@ -1,0 +1,13 @@
+IIFEs are functions that are defined and executed immediately upon declaration. 
+They are often used to create private scopes and avoid polluting the global namespace.
+
+The parentheses around the function expression and the immediately following () cause the function to be 
+executed as soon as it's defined.
+
+---------------------------------------------------------------------------------------------------------
+
+Benefits of IIFEs:
+
+Encapsulation: Create private variables and methods to avoid naming conflicts and unintended side effects.
+Modularity: Organize code into self-contained modules.
+Immediate Execution: Run code immediately without needing to explicitly call the function.
