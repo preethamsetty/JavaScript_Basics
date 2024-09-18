@@ -1,0 +1,17 @@
+Generators are a special type of function that allow you to pause and resume execution, 
+creating iterators that can be used to generate sequences of values on demand. 
+They provide a powerful way to control the flow of execution and create more efficient and flexible code.
+
+---------------------------
+
+yield keyword: Generators use the yield keyword to pause execution and return a value. 
+When the generator is resumed, it continues from where it left off.
+Iterators: Generators can be used to create iterators, which are objects that can be used to iterate over 
+a sequence of values.
+
+---------------------------
+Key Points:
+
+Generators provide a powerful way to control the flow of execution in JavaScript.
+The yield keyword is essential for pausing and resuming generators.
+Generators can be used to create iterators, implement asynchronous workflows, and generate infinite sequences.
