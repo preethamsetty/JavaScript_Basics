@@ -1,0 +1,19 @@
+REPL (Read-Eval-Print Loop) in JavaScript:
+
+REPL is an interactive environment that allows you to execute JavaScript code directly and see the 
+results immediately. It's a valuable tool for testing code snippets, experimenting with different language 
+features, and learning JavaScript interactively.
+
+Key Features of JavaScript REPLs:
+
+Read: Reads the input code you type.
+Evaluate: Executes the code and calculates the result.
+Print: Displays the output of the evaluated code.
+Loop: Continues this process, allowing you to enter and execute multiple lines of code.
+
+Using a REPL:
+
+Open the REPL: Launch your preferred REPL or open the developer tools in your browser.
+Enter JavaScript code: Type the JavaScript code you want to execute.
+Press Enter: The REPL will evaluate the code and display the result.
+Repeat: Continue entering and executing code to experiment and learn.
