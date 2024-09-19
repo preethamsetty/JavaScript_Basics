@@ -1,0 +1,59 @@
+Summary of Promise Methods:
+--------------------------------
+
+1. then(onFulfilled, onRejected):
+
+Attaches callbacks to be called when the promise is fulfilled or rejected.
+Returns a new promise.
+------------------
+
+2. catch(onRejected):
+
+Attaches a callback to be called if the promise is rejected.
+Returns a new promise.
+------------------
+
+3. finally(onFinally):
+
+Attaches a callback to be called regardless of whether the promise is fulfilled or rejected.
+Returns a new promise.
+-----------------------
+
+4. all(promises):
+
+Takes an array of promises and returns a new promise that resolves when all input promises are fulfilled.
+Rejects if any input promise is rejected.
+------------------------
+
+5. allSettled(promises):
+
+Takes an array of promises and returns a new promise that resolves with an array of objects, each representing 
+the outcome of a promise (either fulfilled or rejected).
+----------------------
+
+6. race(promises):
+
+Takes an array of promises and returns a new promise that resolves or rejects as soon as one of the input promises 
+resolves or rejects.  
+--------------------
+
+7. resolve(value):
+
+Creates a new fulfilled promise with the given value.
+-------------------------
+
+8. reject(reason):
+
+Creates a new rejected promise with the given reason.
+
+Method	   Description	                                                              Return Value
+-----------------------------------------------------------------------------------------------------
+then	   Attaches callbacks for fulfillment and rejection	                          New promise
+catch	   Attaches a callback for rejection	                                      New promise
+finally	   Attaches a callback to be called always	                                  New promise
+all	       Resolves when all input promises are fulfilled	                          New promise
+allSettled	Resolves with an array of outcomes	                                      New promise
+race	   Resolves or rejects as soon as one input promise resolves or rejects	      New promise
+resolve	   Creates a fulfilled promise	                                              Fulfilled promise
+reject	   Creates a rejected promise	                                              Rejected promise
+
