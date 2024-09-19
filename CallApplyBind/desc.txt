@@ -1,0 +1,5 @@
+Feature	    call	                             apply	                               bind
+----------------------------------------------------------------------------------------------------
+Arguments	Individual arguments	            Array of arguments	                Fixed arguments
+Return Value The result of the function call	The result of the function call   	A new function
+Timing	    Immediate invocation	             Immediate invocation	            Creates a new function
